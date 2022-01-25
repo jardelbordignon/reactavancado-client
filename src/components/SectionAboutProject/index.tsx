@@ -18,7 +18,7 @@ const SectionAboutProject = ({
       <Container>
         <S.Container>
           <S.Image
-            src={getMediaUrl(url)}
+            src={`${getMediaUrl(url)}`}
             alt={alternativeText}
             loading="lazy"
           />
